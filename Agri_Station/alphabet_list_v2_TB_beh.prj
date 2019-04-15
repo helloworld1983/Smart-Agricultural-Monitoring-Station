@@ -1,0 +1,2 @@
+vhdl work "alphabet_list.vhd"
+vhdl work "alphabet_list_v2_TB.vhd"

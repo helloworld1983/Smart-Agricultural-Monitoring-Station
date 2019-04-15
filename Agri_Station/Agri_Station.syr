@@ -1,0 +1,1353 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.33 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.34 secs
+ 
+--> Reading design: Agri_Station.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Agri_Station.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Agri_Station"
+Output Format                      : NGC
+Target Device                      : xc3s400-4-ft256
+
+---- Source Options
+Top Module Name                    : Agri_Station
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/message_shift.vhd" in Library work.
+Architecture behavioral of Entity message_shift is up to date.
+Compiling vhdl file "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/bit_transmit.vhd" in Library work.
+Architecture behavioral of Entity bit_transmit is up to date.
+Compiling vhdl file "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/ADC_Input.vhd" in Library work.
+Architecture behavioral of Entity adc_input is up to date.
+Compiling vhdl file "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/frequency_divider.vhd" in Library work.
+Entity <frequency_divider> compiled.
+Entity <frequency_divider> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/time_multiplexer_4digit.vhd" in Library work.
+Architecture behavioral of Entity time_multiplexer_4digit is up to date.
+Compiling vhdl file "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/alphabet_list.vhd" in Library work.
+Architecture behavioral of Entity alphabet_list is up to date.
+Compiling vhdl file "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/uart_tx.vhd" in Library work.
+Architecture behavioral of Entity uart_tx is up to date.
+Compiling vhdl file "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/keypad_data.vhd" in Library work.
+Architecture behavioral of Entity keypad_data is up to date.
+Compiling vhdl file "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/buzz_sequence.vhd" in Library work.
+Architecture behavioral of Entity buzz_sequence is up to date.
+Compiling vhdl file "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/data_display.vhd" in Library work.
+Architecture behavioral of Entity data_display is up to date.
+Compiling vhdl file "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/IRRIGATION_ACTIVATION.vhd" in Library work.
+Architecture behavioral of Entity irrigation_activation is up to date.
+Compiling vhdl file "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/byte_splitter.vhd" in Library work.
+Architecture behavioral of Entity byte_splitter is up to date.
+Compiling vhdl file "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Administrator_Terminal.vhd" in Library work.
+Entity <administrator_terminal> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Slave_Terminal.vhd" in Library work.
+Architecture behavioral of Entity slave_terminal is up to date.
+Compiling vhdl file "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/GSM_Driver_Main.vhd" in Library work.
+Architecture behavioral of Entity agri_station is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Agri_Station> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Administrator_Terminal> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <Slave_Terminal> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <frequency_divider> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <time_multiplexer_4digit> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <alphabet_list> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <uart_tx> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <keypad_data> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <buzz_sequence> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <data_display> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <IRRIGATION_ACTIVATION> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <byte_splitter> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <ADC_Input> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <message_shift> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <bit_transmit> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Agri_Station> in library <work> (Architecture <behavioral>).
+Entity <Agri_Station> analyzed. Unit <Agri_Station> generated.
+
+Analyzing Entity <Administrator_Terminal> in library <work> (Architecture <Behavioral>).
+WARNING:Xst:754 - "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Administrator_Terminal.vhd" line 128: Unconnected inout port 'key_value' of component 'keypad_data'.
+Entity <Administrator_Terminal> analyzed. Unit <Administrator_Terminal> generated.
+
+Analyzing Entity <frequency_divider> in library <work> (Architecture <Behavioral>).
+Entity <frequency_divider> analyzed. Unit <frequency_divider> generated.
+
+Analyzing Entity <time_multiplexer_4digit> in library <work> (Architecture <Behavioral>).
+Entity <time_multiplexer_4digit> analyzed. Unit <time_multiplexer_4digit> generated.
+
+Analyzing Entity <alphabet_list> in library <work> (Architecture <Behavioral>).
+WARNING:Xst:1610 - "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/alphabet_list.vhd" line 165: Width mismatch. <ASCII> has a width of 440 bits but assigned expression is 336-bit wide.
+WARNING:Xst:1610 - "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/alphabet_list.vhd" line 166: Width mismatch. <ASCII> has a width of 440 bits but assigned expression is 400-bit wide.
+WARNING:Xst:1610 - "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/alphabet_list.vhd" line 167: Width mismatch. <ASCII> has a width of 440 bits but assigned expression is 408-bit wide.
+WARNING:Xst:1610 - "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/alphabet_list.vhd" line 168: Width mismatch. <ASCII> has a width of 440 bits but assigned expression is 328-bit wide.
+Entity <alphabet_list> analyzed. Unit <alphabet_list> generated.
+
+Analyzing Entity <uart_tx> in library <work> (Architecture <Behavioral>).
+Entity <uart_tx> analyzed. Unit <uart_tx> generated.
+
+Analyzing Entity <message_shift> in library <work> (Architecture <Behavioral>).
+WARNING:Xst:819 - "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/message_shift.vhd" line 163: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <message_tx>
+Entity <message_shift> analyzed. Unit <message_shift> generated.
+
+Analyzing Entity <bit_transmit> in library <work> (Architecture <Behavioral>).
+Entity <bit_transmit> analyzed. Unit <bit_transmit> generated.
+
+Analyzing Entity <keypad_data> in library <work> (Architecture <Behavioral>).
+WARNING:Xst:819 - "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/keypad_data.vhd" line 64: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <r1_input>, <r0_input>
+Entity <keypad_data> analyzed. Unit <keypad_data> generated.
+
+Analyzing Entity <buzz_sequence> in library <work> (Architecture <Behavioral>).
+Entity <buzz_sequence> analyzed. Unit <buzz_sequence> generated.
+
+Analyzing Entity <data_display> in library <work> (Architecture <Behavioral>).
+WARNING:Xst:819 - "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/data_display.vhd" line 48: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <r1_input>, <r0_input>
+Entity <data_display> analyzed. Unit <data_display> generated.
+
+Analyzing Entity <IRRIGATION_ACTIVATION> in library <work> (Architecture <Behavioral>).
+Entity <IRRIGATION_ACTIVATION> analyzed. Unit <IRRIGATION_ACTIVATION> generated.
+
+Analyzing Entity <byte_splitter> in library <work> (Architecture <Behavioral>).
+INFO:Xst:2679 - Register <led<4>> in unit <byte_splitter> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <led<1>> in unit <byte_splitter> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <led<0>> in unit <byte_splitter> has a constant value of 0 during circuit operation. The register is replaced by logic.
+Entity <byte_splitter> analyzed. Unit <byte_splitter> generated.
+
+Analyzing Entity <Slave_Terminal> in library <work> (Architecture <Behavioral>).
+Entity <Slave_Terminal> analyzed. Unit <Slave_Terminal> generated.
+
+Analyzing Entity <ADC_Input> in library <work> (Architecture <Behavioral>).
+INFO:Xst:1561 - "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/ADC_Input.vhd" line 305: Mux is complete : default of case is discarded
+Entity <ADC_Input> analyzed. Unit <ADC_Input> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <frequency_divider>.
+    Related source file is "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/frequency_divider.vhd".
+    Found 15-bit up counter for signal <a1>.
+    Found 22-bit up counter for signal <a2>.
+    Found 8-bit up counter for signal <a3>.
+    Found 10-bit up counter for signal <a4>.
+    Found 10-bit adder for signal <a4$addsub0000> created at line 82.
+    Found 5-bit up counter for signal <a5>.
+    Found 1-bit register for signal <clock1_tmp>.
+    Found 15-bit adder for signal <clock1_tmp$addsub0000> created at line 34.
+    Found 1-bit register for signal <clock2_tmp>.
+    Found 22-bit adder for signal <clock2_tmp$addsub0000> created at line 50.
+    Found 1-bit register for signal <clock3_tmp>.
+    Found 8-bit adder for signal <clock3_tmp$addsub0000> created at line 66.
+    Found 1-bit register for signal <clock4_tmp>.
+    Found 1-bit register for signal <clock5_tmp>.
+    Found 5-bit adder for signal <clock5_tmp$addsub0000> created at line 100.
+    Summary:
+	inferred   5 Counter(s).
+	inferred   5 D-type flip-flop(s).
+	inferred   5 Adder/Subtractor(s).
+Unit <frequency_divider> synthesized.
+
+
+Synthesizing Unit <time_multiplexer_4digit>.
+    Related source file is "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/time_multiplexer_4digit.vhd".
+    Found 4-bit register for signal <anode>.
+Unit <time_multiplexer_4digit> synthesized.
+
+
+Synthesizing Unit <alphabet_list>.
+    Related source file is "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/alphabet_list.vhd".
+WARNING:Xst:647 - Input <phone_num> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <GSM_CONFIG_RDY<2>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 440-bit register for signal <ASCII>.
+    Found 440-bit 4-to-1 multiplexer for signal <ASCII$mux0001> created at line 164.
+    Found 1-bit register for signal <MSG_GEN_ENABLE>.
+INFO:Xst:738 - HDL ADVISOR - 440 flip-flops were inferred for signal <ASCII>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+    Summary:
+	inferred 441 D-type flip-flop(s).
+	inferred 440 Multiplexer(s).
+Unit <alphabet_list> synthesized.
+
+
+Synthesizing Unit <keypad_data>.
+    Related source file is "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/keypad_data.vhd".
+WARNING:Xst:1780 - Signal <key_val<7:4>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 16x8-bit ROM for signal <neg_ones$mux0003>.
+    Found 16x8-bit ROM for signal <pos_ones$mux0002>.
+    Found 16x8-bit ROM for signal <pos_tens$mux0002>.
+    Found 32-bit register for signal <key_value>.
+    Found 8-bit adder for signal <soil_tol_neg_value>.
+    Found 1-bit register for signal <key_buzz>.
+    Found 8-bit adder for signal <soil_tol_pos_value>.
+    Found 8-bit register for signal <key_o>.
+    Found 4-bit register for signal <key_val<3:0>>.
+    Found 8-bit register for signal <neg_ones>.
+    Found 1-bit register for signal <neg_set>.
+    Found 8-bit register for signal <neg_tens>.
+    Found 16-bit register for signal <negative_thresh>.
+    Found 56-bit register for signal <phone_number>.
+    Found 1-bit register for signal <phone_set>.
+    Found 8-bit register for signal <pos_ones>.
+    Found 1-bit register for signal <pos_set>.
+    Found 8-bit register for signal <pos_tens>.
+    Found 16-bit register for signal <positive_thresh>.
+    Found 1-bit register for signal <r0_input>.
+    Found 1-bit register for signal <r1_input>.
+    Summary:
+	inferred   3 ROM(s).
+	inferred 170 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <keypad_data> synthesized.
+
+
+Synthesizing Unit <buzz_sequence>.
+    Related source file is "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/buzz_sequence.vhd".
+    Found 1-bit register for signal <buzzer>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <buzz_sequence> synthesized.
+
+
+Synthesizing Unit <data_display>.
+    Related source file is "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/data_display.vhd".
+WARNING:Xst:647 - Input <phone_num_In<55:32>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 32-bit register for signal <display_out>.
+    Found 3-bit register for signal <DISP_INC>.
+    Found 3-bit adder for signal <DISP_INC$addsub0000> created at line 75.
+    Found 3-bit comparator greater for signal <DISP_INC$cmp_gt0000> created at line 76.
+    Found 1-bit register for signal <r0_input>.
+    Found 1-bit register for signal <r1_input>.
+    Summary:
+	inferred  37 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <data_display> synthesized.
+
+
+Synthesizing Unit <IRRIGATION_ACTIVATION>.
+    Related source file is "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/IRRIGATION_ACTIVATION.vhd".
+WARNING:Xst:647 - Input <CONFIG_BITS<2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <IRRIGATE_OVER>.
+    Found 1-bit register for signal <IRRIGATE_UNDER>.
+    Found 8-bit comparator greatequal for signal <IRRIGATE_UNDER$cmp_ge0000> created at line 59.
+    Found 8-bit comparator lessequal for signal <IRRIGATE_UNDER$cmp_le0000> created at line 59.
+    Found 8-bit comparator lessequal for signal <IRRIGATE_UNDER$cmp_le0001> created at line 61.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+Unit <IRRIGATION_ACTIVATION> synthesized.
+
+
+Synthesizing Unit <byte_splitter>.
+    Related source file is "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/byte_splitter.vhd".
+    Found 3-bit register for signal <led<7:5>>.
+    Found 2-bit register for signal <led<3:2>>.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+Unit <byte_splitter> synthesized.
+
+
+Synthesizing Unit <message_shift>.
+    Related source file is "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/message_shift.vhd".
+WARNING:Xst:647 - Input <CONFIG_BITS<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <TX_STOP> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <TX_RDY_UP> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <TX_DONE_DETECT<2>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Register <soil_neg_rise<0>> equivalent to <soil_neg_fall<0>> has been removed
+    Register <soil_neg_rise<1>> equivalent to <soil_neg_fall<1>> has been removed
+    Register <soil_pos_rise<0>> equivalent to <soil_pos_fall<0>> has been removed
+    Register <soil_pos_rise<1>> equivalent to <soil_pos_fall<1>> has been removed
+    Found 1-bit register for signal <TX_READY>.
+    Found 8-bit register for signal <message_tx>.
+    Found 2-bit register for signal <ph_num_rise<1:0>>.
+    Found 1-bit register for signal <shift_begin>.
+    Found 1-bit register for signal <shift_start>.
+    Found 440-bit comparator equal for signal <shift_start$cmp_eq0000> created at line 199.
+    Found 440-bit comparator not equal for signal <shift_start$cmp_ne0000> created at line 199.
+    Found 2-bit register for signal <soil_neg_fall<1:0>>.
+    Found 2-bit register for signal <soil_pos_fall<1:0>>.
+    Found 440-bit register for signal <TX_SHIFT_MESSAGE>.
+    Found 440-bit 8-to-1 multiplexer for signal <TX_SHIFT_MESSAGE$mux0001> created at line 187.
+    Found 440-bit 4-to-1 multiplexer for signal <TX_SHIFT_MESSAGE$mux0002>.
+INFO:Xst:738 - HDL ADVISOR - 440 flip-flops were inferred for signal <TX_SHIFT_MESSAGE>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+    Summary:
+	inferred 457 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred 880 Multiplexer(s).
+Unit <message_shift> synthesized.
+
+
+Synthesizing Unit <bit_transmit>.
+    Related source file is "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/bit_transmit.vhd".
+    Found 1-bit register for signal <tx_line>.
+    Found 1-bit register for signal <TX_DONE>.
+    Found 4-bit up counter for signal <bit_count>.
+    Found 4-bit comparator greater for signal <bit_count$cmp_gt0000> created at line 55.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <bit_transmit> synthesized.
+
+
+Synthesizing Unit <ADC_Input>.
+    Related source file is "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/ADC_Input.vhd".
+    Found 256x72-bit ROM for signal <ADC$rom0000>.
+    Found 32-bit register for signal <ADC_PER_DISP>.
+    Found 32-bit register for signal <ADC_VAL>.
+    Found 8-bit register for signal <ADC_PER>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  72 D-type flip-flop(s).
+Unit <ADC_Input> synthesized.
+
+
+Synthesizing Unit <Slave_Terminal>.
+    Related source file is "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Slave_Terminal.vhd".
+Unit <Slave_Terminal> synthesized.
+
+
+Synthesizing Unit <uart_tx>.
+    Related source file is "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/uart_tx.vhd".
+Unit <uart_tx> synthesized.
+
+
+Synthesizing Unit <Administrator_Terminal>.
+    Related source file is "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Administrator_Terminal.vhd".
+WARNING:Xst:647 - Input <rx_line> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <clk_10Hz> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <char_byte> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <TX_DONE> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <R_DATA> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <Administrator_Terminal> synthesized.
+
+
+Synthesizing Unit <Agri_Station>.
+    Related source file is "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/GSM_Driver_Main.vhd".
+Unit <Agri_Station> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 4
+ 16x8-bit ROM                                          : 3
+ 256x72-bit ROM                                        : 1
+# Adders/Subtractors                                   : 8
+ 10-bit adder                                          : 1
+ 15-bit adder                                          : 1
+ 22-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 5-bit adder                                           : 1
+ 8-bit adder                                           : 3
+# Counters                                             : 6
+ 10-bit up counter                                     : 1
+ 15-bit up counter                                     : 1
+ 22-bit up counter                                     : 1
+ 4-bit up counter                                      : 1
+ 5-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 140
+ 1-bit register                                        : 125
+ 3-bit register                                        : 1
+ 32-bit register                                       : 4
+ 4-bit register                                        : 1
+ 440-bit register                                      : 2
+ 8-bit register                                        : 7
+# Comparators                                          : 7
+ 3-bit comparator greater                              : 1
+ 4-bit comparator greater                              : 1
+ 440-bit comparator equal                              : 1
+ 440-bit comparator not equal                          : 1
+ 8-bit comparator greatequal                           : 1
+ 8-bit comparator lessequal                            : 2
+# Multiplexers                                         : 3
+ 440-bit 4-to-1 multiplexer                            : 2
+ 440-bit 8-to-1 multiplexer                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+INFO:Xst:2261 - The FF/Latch <r0_input> in Unit <cop5> is equivalent to the following FF/Latch, which will be removed : <key_buzz> 
+WARNING:Xst:1293 - FF/Latch <phone_number_7> has a constant value of 0 in block <cop5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <neg_tens_0> (without init value) has a constant value of 0 in block <cop5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <neg_tens_7> (without init value) has a constant value of 0 in block <cop5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <negative_thresh_7> has a constant value of 0 in block <cop5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <phone_number_15> has a constant value of 0 in block <cop5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <positive_thresh_7> has a constant value of 0 in block <cop5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <phone_number_23> has a constant value of 0 in block <cop5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <phone_number_31> has a constant value of 0 in block <cop5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <key_o_7> has a constant value of 0 in block <cop5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <positive_thresh_15> has a constant value of 0 in block <cop5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <negative_thresh_15> has a constant value of 0 in block <cop5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2404 -  FFs/Latches <key_value<31:31>> (without init value) have a constant value of 0 in block <keypad_data>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 4
+ 16x8-bit ROM                                          : 3
+ 256x72-bit ROM                                        : 1
+# Adders/Subtractors                                   : 8
+ 10-bit adder                                          : 1
+ 15-bit adder                                          : 1
+ 22-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 5-bit adder                                           : 1
+ 8-bit adder                                           : 3
+# Counters                                             : 6
+ 10-bit up counter                                     : 1
+ 15-bit up counter                                     : 1
+ 22-bit up counter                                     : 1
+ 4-bit up counter                                      : 1
+ 5-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 1195
+ Flip-Flops                                            : 1195
+# Comparators                                          : 7
+ 3-bit comparator greater                              : 1
+ 4-bit comparator greater                              : 1
+ 440-bit comparator equal                              : 1
+ 440-bit comparator not equal                          : 1
+ 8-bit comparator greatequal                           : 1
+ 8-bit comparator lessequal                            : 2
+# Multiplexers                                         : 3
+ 440-bit 4-to-1 multiplexer                            : 2
+ 440-bit 8-to-1 multiplexer                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <key_value_5> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_6> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_7> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_8> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_9> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_10> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_11> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_12> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_13> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_14> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_15> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_16> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_17> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_18> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_19> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_20> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_21> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_22> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_23> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <phone_number_7> has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <neg_tens_0> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <neg_tens_7> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <negative_thresh_7> has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <positive_thresh_15> has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <phone_number_15> has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <positive_thresh_7> has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <phone_number_23> has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <phone_number_31> has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <negative_thresh_15> has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <phone_number_39> has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <key_o_7> has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <phone_number_47> has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <phone_number_55> has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_0> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_1> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_2> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_3> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <key_value_4> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <r0_input> in Unit <keypad_data> is equivalent to the following FF/Latch, which will be removed : <key_buzz> 
+WARNING:Xst:1710 - FF/Latch <pos_ones_4> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <pos_ones_5> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <pos_ones_6> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <pos_ones_7> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <pos_tens_0> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <pos_tens_7> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <neg_ones_5> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <neg_ones_7> (without init value) has a constant value of 0 in block <keypad_data>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <ASCII_366> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_367> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_369> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_371> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_374> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_375> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_377> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_382> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_383> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_390> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_391> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_398> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_399> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_400> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_402> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_404> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_405> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_287> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_295> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_303> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_311> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_319> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_327> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_330> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_335> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_339> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_343> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_347> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_351> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_352> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_354> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_358> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_359> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_362> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_423> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_424> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_425> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_426> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_427> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_428> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_429> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_430> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_431> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_432> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_433> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_434> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_435> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_436> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_437> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_438> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_439> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_406> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_407> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_408> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_409> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_410> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_411> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_412> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_413> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_414> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_415> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_416> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_417> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_418> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_419> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_420> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_421> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_422> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_56> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_60> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_63> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_68> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_71> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_76> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_79> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_87> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_89> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_95> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_103> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_105> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_108> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_111> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_115> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_119> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_120> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_1> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_4> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_5> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_6> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_7> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_9> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_11> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_12> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_15> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_33> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_35> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_36> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_39> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_47> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_48> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_52> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_55> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_207> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_215> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_223> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_228> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_231> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_236> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_239> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_244> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_247> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_249> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_252> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_255> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_263> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_271> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_279> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_282> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_283> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_122> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_123> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_127> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_131> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_135> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_137> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_139> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_143> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_151> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_156> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_159> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_167> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_175> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_183> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_191> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_193> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ASCII_199> has a constant value of 0 in block <alphabet_list>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ADC_rom0000_41> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_42> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_43> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_44> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_45> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_46> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_47> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_48> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_49> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_50> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_51> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_52> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_53> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_54> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_55> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_62> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_63> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_70> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_71> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_7> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_8> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_9> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_10> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_11> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_12> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_13> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_14> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_15> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_17> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_19> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_21> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_23> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_30> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_31> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_34> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_35> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_38> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ADC_rom0000_40> (without init value) has a constant value of 0 in block <ADC_Input>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <ASCII_8> in Unit <alphabet_list> is equivalent to the following 15 FFs/Latches, which will be removed : <ASCII_41> <ASCII_44> <ASCII_58> <ASCII_59> <ASCII_62> <ASCII_64> <ASCII_84> <ASCII_88> <ASCII_100> <ASCII_132> <ASCII_208> <ASCII_265> <ASCII_315> <ASCII_317> <ASCII_325> 
+INFO:Xst:2261 - The FF/Latch <ASCII_148> in Unit <alphabet_list> is equivalent to the following 5 FFs/Latches, which will be removed : <ASCII_168> <ASCII_170> <ASCII_200> <ASCII_304> <ASCII_324> 
+INFO:Xst:2261 - The FF/Latch <ASCII_50> in Unit <alphabet_list> is equivalent to the following 22 FFs/Latches, which will be removed : <ASCII_54> <ASCII_65> <ASCII_66> <ASCII_80> <ASCII_90> <ASCII_110> <ASCII_116> <ASCII_146> <ASCII_173> <ASCII_182> <ASCII_188> <ASCII_204> <ASCII_213> <ASCII_216> <ASCII_222> <ASCII_227> <ASCII_230> <ASCII_288> <ASCII_297> <ASCII_302> <ASCII_310> <ASCII_318> 
+INFO:Xst:2261 - The FF/Latch <ASCII_57> in Unit <alphabet_list> is equivalent to the following 19 FFs/Latches, which will be removed : <ASCII_82> <ASCII_91> <ASCII_96> <ASCII_112> <ASCII_144> <ASCII_161> <ASCII_163> <ASCII_171> <ASCII_187> <ASCII_195> <ASCII_203> <ASCII_241> <ASCII_260> <ASCII_274> <ASCII_275> <ASCII_292> <ASCII_316> <ASCII_320> <ASCII_331> 
+INFO:Xst:2261 - The FF/Latch <ASCII_192> in Unit <alphabet_list> is equivalent to the following 5 FFs/Latches, which will be removed : <ASCII_212> <ASCII_229> <ASCII_234> <ASCII_238> <ASCII_312> 
+INFO:Xst:2261 - The FF/Latch <ASCII_145> in Unit <alphabet_list> is equivalent to the following 9 FFs/Latches, which will be removed : <ASCII_152> <ASCII_174> <ASCII_186> <ASCII_201> <ASCII_237> <ASCII_246> <ASCII_248> <ASCII_258> <ASCII_289> 
+INFO:Xst:2261 - The FF/Latch <ASCII_164> in Unit <alphabet_list> is equivalent to the following 21 FFs/Latches, which will be removed : <ASCII_185> <ASCII_225> <ASCII_272> <ASCII_276> <ASCII_332> <ASCII_341> <ASCII_344> <ASCII_345> <ASCII_346> <ASCII_348> <ASCII_350> <ASCII_361> <ASCII_363> <ASCII_378> <ASCII_387> <ASCII_392> <ASCII_394> <ASCII_396> <ASCII_397> <ASCII_401> <ASCII_403> 
+INFO:Xst:2261 - The FF/Latch <ASCII_34> in Unit <alphabet_list> is equivalent to the following 23 FFs/Latches, which will be removed : <ASCII_40> <ASCII_42> <ASCII_49> <ASCII_51> <ASCII_72> <ASCII_73> <ASCII_74> <ASCII_83> <ASCII_92> <ASCII_99> <ASCII_104> <ASCII_106> <ASCII_113> <ASCII_147> <ASCII_169> <ASCII_172> <ASCII_179> <ASCII_210> <ASCII_220> <ASCII_233> <ASCII_281> <ASCII_284> <ASCII_286> 
+INFO:Xst:2261 - The FF/Latch <ASCII_0> in Unit <alphabet_list> is equivalent to the following 60 FFs/Latches, which will be removed : <ASCII_2> <ASCII_3> <ASCII_10> <ASCII_13> <ASCII_37> <ASCII_45> <ASCII_53> <ASCII_61> <ASCII_67> <ASCII_69> <ASCII_70> <ASCII_75> <ASCII_77> <ASCII_78> <ASCII_85> <ASCII_86> <ASCII_93> <ASCII_94> <ASCII_97> <ASCII_101> <ASCII_102> <ASCII_109> <ASCII_114> <ASCII_117> <ASCII_118> <ASCII_125> <ASCII_133> <ASCII_134> <ASCII_138> <ASCII_141> <ASCII_142> <ASCII_149> <ASCII_150> <ASCII_155> <ASCII_157> <ASCII_158> <ASCII_165> <ASCII_181> <ASCII_189> <ASCII_190> <ASCII_197> <ASCII_198> <ASCII_205> <ASCII_206> <ASCII_214> <ASCII_221> <ASCII_224> <ASCII_245> <ASCII_251> <ASCII_253> <ASCII_254> <ASCII_261> <ASCII_262> <ASCII_264> <ASCII_270> <ASCII_285> <ASCII_293> <ASCII_301> <ASCII_309> <ASCII_321> 
+INFO:Xst:2261 - The FF/Latch <ASCII_180> in Unit <alphabet_list> is equivalent to the following 23 FFs/Latches, which will be removed : <ASCII_184> <ASCII_211> <ASCII_218> <ASCII_242> <ASCII_257> <ASCII_268> <ASCII_280> <ASCII_299> <ASCII_313> <ASCII_328> <ASCII_337> <ASCII_338> <ASCII_340> <ASCII_349> <ASCII_353> <ASCII_355> <ASCII_356> <ASCII_360> <ASCII_370> <ASCII_379> <ASCII_385> <ASCII_386> <ASCII_395> 
+INFO:Xst:2261 - The FF/Latch <ASCII_177> in Unit <alphabet_list> is equivalent to the following 6 FFs/Latches, which will be removed : <ASCII_217> <ASCII_243> <ASCII_277> <ASCII_290> <ASCII_294> <ASCII_314> 
+INFO:Xst:2261 - The FF/Latch <ASCII_14> in Unit <alphabet_list> is equivalent to the following 14 FFs/Latches, which will be removed : <ASCII_32> <ASCII_38> <ASCII_46> <ASCII_98> <ASCII_121> <ASCII_124> <ASCII_126> <ASCII_128> <ASCII_130> <ASCII_140> <ASCII_240> <ASCII_291> <ASCII_300> <ASCII_308> 
+INFO:Xst:2261 - The FF/Latch <ASCII_176> in Unit <alphabet_list> is equivalent to the following 5 FFs/Latches, which will be removed : <ASCII_178> <ASCII_235> <ASCII_250> <ASCII_305> <ASCII_323> 
+INFO:Xst:2261 - The FF/Latch <ASCII_160> in Unit <alphabet_list> is equivalent to the following 14 FFs/Latches, which will be removed : <ASCII_162> <ASCII_166> <ASCII_202> <ASCII_209> <ASCII_232> <ASCII_266> <ASCII_267> <ASCII_269> <ASCII_273> <ASCII_278> <ASCII_296> <ASCII_306> <ASCII_322> <ASCII_329> 
+INFO:Xst:2261 - The FF/Latch <ASCII_43> in Unit <alphabet_list> is equivalent to the following 32 FFs/Latches, which will be removed : <ASCII_81> <ASCII_107> <ASCII_129> <ASCII_136> <ASCII_153> <ASCII_154> <ASCII_194> <ASCII_196> <ASCII_219> <ASCII_226> <ASCII_256> <ASCII_259> <ASCII_298> <ASCII_307> <ASCII_326> <ASCII_333> <ASCII_334> <ASCII_336> <ASCII_342> <ASCII_357> <ASCII_364> <ASCII_365> <ASCII_368> <ASCII_372> <ASCII_373> <ASCII_376> <ASCII_380> <ASCII_381> <ASCII_384> <ASCII_388> <ASCII_389> <ASCII_393> 
+INFO:Xst:2261 - The FF/Latch <neg_ones_4> in Unit <keypad_data> is equivalent to the following FF/Latch, which will be removed : <neg_ones_6> 
+INFO:Xst:2261 - The FF/Latch <key_o_4> in Unit <keypad_data> is equivalent to the following FF/Latch, which will be removed : <key_value_28> 
+INFO:Xst:2261 - The FF/Latch <key_o_0> in Unit <keypad_data> is equivalent to the following FF/Latch, which will be removed : <key_value_24> 
+INFO:Xst:2261 - The FF/Latch <ADC_rom0000_60> in Unit <ADC_Input> is equivalent to the following FF/Latch, which will be removed : <ADC_rom0000_61> 
+INFO:Xst:2261 - The FF/Latch <ADC_rom0000_16> in Unit <ADC_Input> is equivalent to the following 10 FFs/Latches, which will be removed : <ADC_rom0000_18> <ADC_rom0000_20> <ADC_rom0000_22> <ADC_rom0000_28> <ADC_rom0000_29> <ADC_rom0000_36> <ADC_rom0000_37> <ADC_rom0000_39> <ADC_rom0000_68> <ADC_rom0000_69> 
+
+Optimizing unit <Agri_Station> ...
+
+Optimizing unit <frequency_divider> ...
+
+Optimizing unit <alphabet_list> ...
+
+Optimizing unit <keypad_data> ...
+INFO:Xst:2261 - The FF/Latch <key_o_6> in Unit <keypad_data> is equivalent to the following FF/Latch, which will be removed : <key_value_30> 
+
+Optimizing unit <data_display> ...
+
+Optimizing unit <IRRIGATION_ACTIVATION> ...
+
+Optimizing unit <message_shift> ...
+
+Optimizing unit <bit_transmit> ...
+
+Optimizing unit <ADC_Input> ...
+
+Optimizing unit <time_multiplexer_4digit> ...
+
+Optimizing unit <Administrator_Terminal> ...
+WARNING:Xst:1293 - FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_223> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_231> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_239> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_247> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_255> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_263> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_271> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_279> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_287> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_295> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_303> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_311> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_319> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_327> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_335> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_343> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop3/ASCII_31> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop3/ASCII_23> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cop1/cop7/display_out_23> (without init value) has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cop1/cop7/display_out_15> (without init value) has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cop1/cop7/display_out_7> (without init value) has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_439> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_431> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_423> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_415> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_407> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_399> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_391> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_383> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_375> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_367> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_359> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_351> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_79> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_71> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_63> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_55> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_47> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_39> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_31> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_23> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_15> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_12> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_9> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_7> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_6> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_5> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_4> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_1> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/message_tx_7> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_215> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_207> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_199> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_191> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_183> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_175> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_167> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_159> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_151> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_143> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_135> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_127> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_119> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_111> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_103> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_95> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_87> has a constant value of 0 in block <Agri_Station>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <cop1/cop5/phone_number_32> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/phone_number_33> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/phone_number_35> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/phone_number_34> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/phone_number_40> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/phone_number_36> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/phone_number_41> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/phone_number_37> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/phone_number_42> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/phone_number_38> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/phone_number_43> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/phone_number_44> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/phone_number_45> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/phone_number_50> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/phone_number_46> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/phone_number_52> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/phone_number_51> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/phone_number_48> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/phone_number_53> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/phone_number_49> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/phone_number_54> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/key_value_25> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/key_value_26> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/key_value_27> of sequential type is unconnected in block <Agri_Station>.
+WARNING:Xst:2677 - Node <cop1/cop5/key_value_29> of sequential type is unconnected in block <Agri_Station>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2261 - The FF/Latch <cop1/cop4/cop1/TX_SHIFT_MESSAGE_0> in Unit <Agri_Station> is equivalent to the following 3 FFs/Latches, which will be removed : <cop1/cop4/cop1/TX_SHIFT_MESSAGE_2> <cop1/cop4/cop1/TX_SHIFT_MESSAGE_3> <cop1/cop4/cop1/TX_SHIFT_MESSAGE_13> 
+INFO:Xst:2261 - The FF/Latch <cop1/cop5/r1_input> in Unit <Agri_Station> is equivalent to the following FF/Latch, which will be removed : <cop1/cop6/buzzer> 
+Found area constraint ratio of 100 (+ 5) on block Agri_Station, actual ratio is 30.
+FlipFlop cop1/cop4/cop1/shift_begin has been replicated 18 time(s)
+FlipFlop cop1/cop4/cop1/shift_start has been replicated 2 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 674
+ Flip-Flops                                            : 674
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Agri_Station.ngr
+Top Level Output File Name         : Agri_Station
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 45
+
+Cell Usage :
+# BELS                             : 2474
+#      GND                         : 1
+#      INV                         : 19
+#      LUT1                        : 90
+#      LUT2                        : 163
+#      LUT2_D                      : 4
+#      LUT2_L                      : 29
+#      LUT3                        : 426
+#      LUT3_D                      : 162
+#      LUT3_L                      : 49
+#      LUT4                        : 934
+#      LUT4_D                      : 4
+#      LUT4_L                      : 48
+#      MUXCY                       : 238
+#      MUXF5                       : 174
+#      MUXF6                       : 19
+#      MUXF7                       : 8
+#      MUXF8                       : 1
+#      VCC                         : 1
+#      XORCY                       : 104
+# FlipFlops/Latches                : 674
+#      FDC                         : 55
+#      FDCE                        : 610
+#      FDP                         : 8
+#      FDPE                        : 1
+# Clock Buffers                    : 5
+#      BUFG                        : 4
+#      BUFGP                       : 1
+# IO Buffers                       : 43
+#      IBUF                        : 20
+#      OBUF                        : 23
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400ft256-4 
+
+ Number of Slices:                     1021  out of   3584    28%  
+ Number of Slice Flip Flops:            674  out of   7168     9%  
+ Number of 4 input LUTs:               1928  out of   7168    26%  
+ Number of IOs:                          45
+ Number of bonded IOBs:                  44  out of    173    25%  
+ Number of GCLKs:                         5  out of      8    62%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-----------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)       | Load  |
+-----------------------------------+-----------------------------+-------+
+cop1/cop1/clock2_tmp1              | BUFG                        | 23    |
+cop1/cop1/clock1_tmp1              | BUFG                        | 138   |
+cop1/cop1/clock3_tmp               | NONE(cop1/cop4/cop2/TX_DONE)| 6     |
+cop1/cop1/clock4_tmp1              | BUFG                        | 412   |
+cop1/cop1/clock5_tmp1              | BUFG                        | 30    |
+clk                                | BUFGP                       | 65    |
+-----------------------------------+-----------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 674   |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 12.108ns (Maximum Frequency: 82.593MHz)
+   Minimum input arrival time before clock: 8.998ns
+   Maximum output required time after clock: 19.797ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'cop1/cop1/clock1_tmp1'
+  Clock period: 11.642ns (frequency: 85.896MHz)
+  Total number of paths / destination ports: 5427 / 214
+-------------------------------------------------------------------------
+Delay:               11.642ns (Levels of Logic = 7)
+  Source:            cop1/cop5/key_o_5 (FF)
+  Destination:       cop1/cop5/neg_ones_1 (FF)
+  Source Clock:      cop1/cop1/clock1_tmp1 rising
+  Destination Clock: cop1/cop1/clock1_tmp1 rising
+
+  Data Path: cop1/cop5/key_o_5 to cop1/cop5/neg_ones_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             4   0.720   1.256  cop1/cop5/key_o_5 (cop1/cop5/key_o_5)
+     LUT2_L:I0->LO         1   0.551   0.126  cop1/cop5/positive_thresh_9_and0000_SW0 (N107)
+     LUT4:I3->O           10   0.551   1.202  cop1/cop5/positive_thresh_9_and0000 (cop1/cop5/positive_thresh_9_and0000)
+     LUT3_D:I2->O          4   0.551   0.985  cop1/cop5/negative_thresh_0_mux000011_1 (cop1/cop5/negative_thresh_0_mux000011)
+     LUT4:I2->O           12   0.551   1.457  cop1/cop5/negative_thresh_10_mux00001 (cop1/cop5/negative_thresh_10_mux0000)
+     LUT2:I0->O            2   0.551   0.903  cop1/cop5/neg_tens_mux0000<4>11 (cop1/cop5/N14)
+     LUT4:I3->O            3   0.551   0.933  cop1/cop5/neg_ones_mux0002<1>1 (cop1/cop5/neg_ones_mux0002<4>20)
+     LUT4:I3->O            1   0.551   0.000  cop1/cop5/neg_ones_mux0002<4>21 (cop1/cop5/neg_ones_mux0002<4>)
+     FDCE:D                    0.203          cop1/cop5/neg_ones_3
+    ----------------------------------------
+    Total                     11.642ns (4.780ns logic, 6.862ns route)
+                                       (41.1% logic, 58.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'cop1/cop1/clock3_tmp'
+  Clock period: 6.095ns (frequency: 164.069MHz)
+  Total number of paths / destination ports: 61 / 12
+-------------------------------------------------------------------------
+Delay:               6.095ns (Levels of Logic = 4)
+  Source:            cop1/cop4/cop2/bit_count_2 (FF)
+  Destination:       cop1/cop4/cop2/tx_line (FF)
+  Source Clock:      cop1/cop1/clock3_tmp rising
+  Destination Clock: cop1/cop1/clock3_tmp rising
+
+  Data Path: cop1/cop4/cop2/bit_count_2 to cop1/cop4/cop2/tx_line
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             9   0.720   1.463  cop1/cop4/cop2/bit_count_2 (cop1/cop4/cop2/bit_count_2)
+     LUT2:I0->O            1   0.551   0.869  cop1/cop4/cop2/tx_line_mux000018 (cop1/cop4/cop2/tx_line_mux000018)
+     LUT4:I2->O            1   0.551   0.827  cop1/cop4/cop2/tx_line_mux000023 (cop1/cop4/cop2/tx_line_mux000023)
+     LUT4:I3->O            1   0.551   0.000  cop1/cop4/cop2/tx_line_mux00001622 (cop1/cop4/cop2/tx_line_mux00001621)
+     MUXF5:I0->O           1   0.360   0.000  cop1/cop4/cop2/tx_line_mux0000162_f5 (cop1/cop4/cop2/tx_line_mux0000)
+     FDPE:D                    0.203          cop1/cop4/cop2/tx_line
+    ----------------------------------------
+    Total                      6.095ns (2.936ns logic, 3.159ns route)
+                                       (48.2% logic, 51.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'cop1/cop1/clock4_tmp1'
+  Clock period: 12.108ns (frequency: 82.593MHz)
+  Total number of paths / destination ports: 11898 / 796
+-------------------------------------------------------------------------
+Delay:               12.108ns (Levels of Logic = 9)
+  Source:            cop1/cop4/cop1/shift_begin (FF)
+  Destination:       cop1/cop4/cop1/shift_start (FF)
+  Source Clock:      cop1/cop1/clock4_tmp1 rising
+  Destination Clock: cop1/cop1/clock4_tmp1 rising
+
+  Data Path: cop1/cop4/cop1/shift_begin to cop1/cop4/cop1/shift_start
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q           369   0.720   3.810  cop1/cop4/cop1/shift_begin (cop1/cop4/cop1/shift_begin)
+     LUT4:I3->O            1   0.551   0.827  cop1/cop4/cop1/Mcompar_shift_start_cmp_ne0000_lut<91>_SW1 (N358)
+     LUT4:I3->O            1   0.551   0.000  cop1/cop4/cop1/Mcompar_shift_start_cmp_ne0000_lut<91> (cop1/cop4/cop1/Mcompar_shift_start_cmp_ne0000_lut<91>)
+     MUXCY:S->O            1   0.500   0.000  cop1/cop4/cop1/Mcompar_shift_start_cmp_ne0000_cy<91> (cop1/cop4/cop1/Mcompar_shift_start_cmp_ne0000_cy<91>)
+     MUXCY:CI->O           1   0.064   0.000  cop1/cop4/cop1/Mcompar_shift_start_cmp_ne0000_cy<92> (cop1/cop4/cop1/Mcompar_shift_start_cmp_ne0000_cy<92>)
+     MUXCY:CI->O           1   0.064   0.000  cop1/cop4/cop1/Mcompar_shift_start_cmp_ne0000_cy<93> (cop1/cop4/cop1/Mcompar_shift_start_cmp_ne0000_cy<93>)
+     MUXCY:CI->O           1   0.064   0.000  cop1/cop4/cop1/Mcompar_shift_start_cmp_ne0000_cy<94> (cop1/cop4/cop1/Mcompar_shift_start_cmp_ne0000_cy<94>)
+     MUXCY:CI->O           2   0.303   1.216  cop1/cop4/cop1/Mcompar_shift_start_cmp_ne0000_cy<95> (cop1/cop4/cop1/Mcompar_shift_start_cmp_ne0000_cy<95>)
+     LUT3:I0->O            1   0.551   0.827  cop1/cop4/cop1/Mcompar_shift_start_cmp_ne00001_SW1 (N313)
+     LUT4:I3->O            3   0.551   0.907  cop1/cop4/cop1/shift_start_not00011 (cop1/cop4/cop1/shift_start_not0001)
+     FDCE:CE                   0.602          cop1/cop4/cop1/shift_start
+    ----------------------------------------
+    Total                     12.108ns (4.521ns logic, 7.587ns route)
+                                       (37.3% logic, 62.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'cop1/cop1/clock5_tmp1'
+  Clock period: 4.849ns (frequency: 206.232MHz)
+  Total number of paths / destination ports: 29 / 29
+-------------------------------------------------------------------------
+Delay:               4.849ns (Levels of Logic = 1)
+  Source:            cop1/cop3/MSG_GEN_ENABLE (FF)
+  Destination:       cop1/cop3/ASCII_0 (FF)
+  Source Clock:      cop1/cop1/clock5_tmp1 rising
+  Destination Clock: cop1/cop1/clock5_tmp1 rising
+
+  Data Path: cop1/cop3/MSG_GEN_ENABLE to cop1/cop3/ASCII_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.720   1.140  cop1/cop3/MSG_GEN_ENABLE (cop1/cop3/MSG_GEN_ENABLE)
+     LUT2:I0->O           29   0.551   1.836  cop1/cop3/ASCII_not00011 (cop1/cop3/ASCII_not0001)
+     FDCE:CE                   0.602          cop1/cop3/ASCII_0
+    ----------------------------------------
+    Total                      4.849ns (1.873ns logic, 2.976ns route)
+                                       (38.6% logic, 61.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 10.101ns (frequency: 99.000MHz)
+  Total number of paths / destination ports: 8420 / 71
+-------------------------------------------------------------------------
+Delay:               10.101ns (Levels of Logic = 24)
+  Source:            cop1/cop1/a2_1 (FF)
+  Destination:       cop1/cop1/a2_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: cop1/cop1/a2_1 to cop1/cop1/a2_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.720   1.216  cop1/cop1/a2_1 (cop1/cop1/a2_1)
+     LUT1:I0->O            1   0.551   0.000  cop1/cop1/Madd_clock2_tmp_addsub0000_cy<1>_rt (cop1/cop1/Madd_clock2_tmp_addsub0000_cy<1>_rt)
+     MUXCY:S->O            1   0.500   0.000  cop1/cop1/Madd_clock2_tmp_addsub0000_cy<1> (cop1/cop1/Madd_clock2_tmp_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  cop1/cop1/Madd_clock2_tmp_addsub0000_cy<2> (cop1/cop1/Madd_clock2_tmp_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  cop1/cop1/Madd_clock2_tmp_addsub0000_cy<3> (cop1/cop1/Madd_clock2_tmp_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  cop1/cop1/Madd_clock2_tmp_addsub0000_cy<4> (cop1/cop1/Madd_clock2_tmp_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  cop1/cop1/Madd_clock2_tmp_addsub0000_cy<5> (cop1/cop1/Madd_clock2_tmp_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  cop1/cop1/Madd_clock2_tmp_addsub0000_cy<6> (cop1/cop1/Madd_clock2_tmp_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  cop1/cop1/Madd_clock2_tmp_addsub0000_cy<7> (cop1/cop1/Madd_clock2_tmp_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  cop1/cop1/Madd_clock2_tmp_addsub0000_cy<8> (cop1/cop1/Madd_clock2_tmp_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  cop1/cop1/Madd_clock2_tmp_addsub0000_cy<9> (cop1/cop1/Madd_clock2_tmp_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  cop1/cop1/Madd_clock2_tmp_addsub0000_cy<10> (cop1/cop1/Madd_clock2_tmp_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  cop1/cop1/Madd_clock2_tmp_addsub0000_cy<11> (cop1/cop1/Madd_clock2_tmp_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  cop1/cop1/Madd_clock2_tmp_addsub0000_cy<12> (cop1/cop1/Madd_clock2_tmp_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  cop1/cop1/Madd_clock2_tmp_addsub0000_cy<13> (cop1/cop1/Madd_clock2_tmp_addsub0000_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  cop1/cop1/Madd_clock2_tmp_addsub0000_cy<14> (cop1/cop1/Madd_clock2_tmp_addsub0000_cy<14>)
+     XORCY:CI->O           1   0.904   1.140  cop1/cop1/Madd_clock2_tmp_addsub0000_xor<15> (cop1/cop1/clock2_tmp_addsub0000<15>)
+     LUT2:I0->O            1   0.551   0.000  cop1/cop1/clock2_tmp_cmp_eq0000_wg_lut<0> (cop1/cop1/clock2_tmp_cmp_eq0000_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  cop1/cop1/clock2_tmp_cmp_eq0000_wg_cy<0> (cop1/cop1/clock2_tmp_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  cop1/cop1/clock2_tmp_cmp_eq0000_wg_cy<1> (cop1/cop1/clock2_tmp_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  cop1/cop1/clock2_tmp_cmp_eq0000_wg_cy<2> (cop1/cop1/clock2_tmp_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  cop1/cop1/clock2_tmp_cmp_eq0000_wg_cy<3> (cop1/cop1/clock2_tmp_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  cop1/cop1/clock2_tmp_cmp_eq0000_wg_cy<4> (cop1/cop1/clock2_tmp_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O          23   0.281   1.896  cop1/cop1/clock2_tmp_cmp_eq0000_wg_cy<5> (cop1/cop1/clock2_tmp_cmp_eq0000)
+     LUT2:I1->O            1   0.551   0.000  cop1/cop1/Mcount_a2_eqn_91 (cop1/cop1/Mcount_a2_eqn_9)
+     FDC:D                     0.203          cop1/cop1/a2_9
+    ----------------------------------------
+    Total                     10.101ns (5.849ns logic, 4.252ns route)
+                                       (57.9% logic, 42.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'cop1/cop1/clock2_tmp1'
+  Total number of paths / destination ports: 878 / 45
+-------------------------------------------------------------------------
+Offset:              8.998ns (Levels of Logic = 5)
+  Source:            ADC<1> (PAD)
+  Destination:       cop2/cop1/ADC_rom0000_59 (FF)
+  Destination Clock: cop1/cop1/clock2_tmp1 rising
+
+  Data Path: ADC<1> to cop2/cop1/ADC_rom0000_59
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            75   0.821   2.438  ADC_1_IBUF (ADC_1_IBUF)
+     LUT2:I0->O           13   0.551   1.196  cop2/cop1/ADC<7>311 (cop2/cop1/N2)
+     LUT4:I3->O            1   0.551   1.140  cop2/cop1/Mrom_ADC_rom000019418119 (cop2/cop1/Mrom_ADC_rom000019418119)
+     LUT4:I0->O            1   0.551   0.996  cop2/cop1/Mrom_ADC_rom000019418138 (cop2/cop1/Mrom_ADC_rom000019418138)
+     LUT4:I1->O            1   0.551   0.000  cop2/cop1/Mrom_ADC_rom000019418227 (cop2/cop1/N61)
+     FDCE:D                    0.203          cop2/cop1/ADC_rom0000_59
+    ----------------------------------------
+    Total                      8.998ns (3.228ns logic, 5.770ns route)
+                                       (35.9% logic, 64.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'cop1/cop1/clock3_tmp'
+  Total number of paths / destination ports: 6 / 6
+-------------------------------------------------------------------------
+Offset:              5.362ns (Levels of Logic = 2)
+  Source:            switch (PAD)
+  Destination:       cop1/cop4/cop2/tx_line (FF)
+  Destination Clock: cop1/cop1/clock3_tmp rising
+
+  Data Path: switch to cop1/cop4/cop2/tx_line
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           101   0.821   2.587  switch_IBUF (switch_IBUF)
+     LUT3:I0->O            1   0.551   0.801  cop1/cop4/cop2/tx_line_not00011 (cop1/cop4/cop2/tx_line_not0001)
+     FDPE:CE                   0.602          cop1/cop4/cop2/tx_line
+    ----------------------------------------
+    Total                      5.362ns (1.974ns logic, 3.388ns route)
+                                       (36.8% logic, 63.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'cop1/cop1/clock4_tmp1'
+  Total number of paths / destination ports: 412 / 412
+-------------------------------------------------------------------------
+Offset:              8.241ns (Levels of Logic = 2)
+  Source:            switch (PAD)
+  Destination:       cop1/cop4/cop1/TX_SHIFT_MESSAGE_0 (FF)
+  Destination Clock: cop1/cop1/clock4_tmp1 rising
+
+  Data Path: switch to cop1/cop4/cop1/TX_SHIFT_MESSAGE_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           101   0.821   2.443  switch_IBUF (switch_IBUF)
+     LUT4:I1->O          376   0.551   3.824  cop1/cop4/cop1/TX_SHIFT_MESSAGE_not00011 (cop1/cop4/cop1/TX_SHIFT_MESSAGE_not0001)
+     FDCE:CE                   0.602          cop1/cop4/cop1/TX_SHIFT_MESSAGE_0
+    ----------------------------------------
+    Total                      8.241ns (1.974ns logic, 6.267ns route)
+                                       (24.0% logic, 76.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'cop1/cop1/clock1_tmp1'
+  Total number of paths / destination ports: 334 / 147
+-------------------------------------------------------------------------
+Offset:              7.358ns (Levels of Logic = 3)
+  Source:            switch (PAD)
+  Destination:       cop1/cop5/pos_ones_0 (FF)
+  Destination Clock: cop1/cop1/clock1_tmp1 rising
+
+  Data Path: switch to cop1/cop5/pos_ones_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           101   0.821   2.443  switch_IBUF (switch_IBUF)
+     LUT4:I1->O            4   0.551   1.256  cop1/cop5/neg_tens_not000111 (cop1/cop5/N13)
+     LUT3:I0->O           10   0.551   1.134  cop1/cop5/pos_ones_not00011 (cop1/cop5/pos_ones_not0001)
+     FDCE:CE                   0.602          cop1/cop5/pos_ones_0
+    ----------------------------------------
+    Total                      7.358ns (2.525ns logic, 4.833ns route)
+                                       (34.3% logic, 65.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'cop1/cop1/clock5_tmp1'
+  Total number of paths / destination ports: 30 / 30
+-------------------------------------------------------------------------
+Offset:              6.253ns (Levels of Logic = 2)
+  Source:            switch (PAD)
+  Destination:       cop1/cop3/ASCII_0 (FF)
+  Destination Clock: cop1/cop1/clock5_tmp1 rising
+
+  Data Path: switch to cop1/cop3/ASCII_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           101   0.821   2.443  switch_IBUF (switch_IBUF)
+     LUT2:I1->O           29   0.551   1.836  cop1/cop3/ASCII_not00011 (cop1/cop3/ASCII_not0001)
+     FDCE:CE                   0.602          cop1/cop3/ASCII_0
+    ----------------------------------------
+    Total                      6.253ns (1.974ns logic, 4.279ns route)
+                                       (31.6% logic, 68.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'cop1/cop1/clock1_tmp1'
+  Total number of paths / destination ports: 2964 / 19
+-------------------------------------------------------------------------
+Offset:              19.797ns (Levels of Logic = 9)
+  Source:            cop1/cop2/anode_1 (FF)
+  Destination:       seg<6> (PAD)
+  Source Clock:      cop1/cop1/clock1_tmp1 rising
+
+  Data Path: cop1/cop2/anode_1 to seg<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q             11   0.720   1.483  cop1/cop2/anode_1 (cop1/cop2/anode_1)
+     LUT2:I0->O           13   0.551   1.365  cop1/cop2/dispLED_mux0000<6>19 (cop1/cop2/dispLED_mux0000<0>19)
+     LUT4:I1->O            1   0.551   0.000  cop1/cop2/dispLED_mux0000<2>60_G (N768)
+     MUXF5:I1->O          29   0.360   2.175  cop1/cop2/dispLED_mux0000<2>60 (cop1/cop2/dispLED_mux0000<2>)
+     LUT4:I0->O            1   0.551   0.869  cop1/cop2/seg<6>76_SW0 (N637)
+     LUT3:I2->O            1   0.551   0.827  cop1/cop2/seg<6>76 (cop1/cop2/seg<6>76)
+     LUT4:I3->O            1   0.551   0.827  cop1/cop2/seg<6>147_SW0 (N667)
+     LUT4:I3->O            1   0.551   0.869  cop1/cop2/seg<6>147 (cop1/cop2/seg<6>147)
+     LUT3:I2->O            1   0.551   0.801  cop1/cop2/seg<6>158 (seg_6_OBUF)
+     OBUF:I->O                 5.644          seg_6_OBUF (seg<6>)
+    ----------------------------------------
+    Total                     19.797ns (10.581ns logic, 9.216ns route)
+                                       (53.4% logic, 46.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'cop1/cop1/clock3_tmp'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              7.165ns (Levels of Logic = 1)
+  Source:            cop1/cop4/cop2/tx_line (FF)
+  Destination:       tx_line (PAD)
+  Source Clock:      cop1/cop1/clock3_tmp rising
+
+  Data Path: cop1/cop4/cop2/tx_line to tx_line
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDPE:C->Q             1   0.720   0.801  cop1/cop4/cop2/tx_line (cop1/cop4/cop2/tx_line)
+     OBUF:I->O                 5.644          tx_line_OBUF (tx_line)
+    ----------------------------------------
+    Total                      7.165ns (6.364ns logic, 0.801ns route)
+                                       (88.8% logic, 11.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 53.00 secs
+Total CPU time to Xst completion: 53.28 secs
+ 
+--> 
+
+Total memory usage is 4635924 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  346 (   0 filtered)
+Number of infos    :   32 (   0 filtered)
+

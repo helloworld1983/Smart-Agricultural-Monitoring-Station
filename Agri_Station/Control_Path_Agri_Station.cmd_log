@@ -1,0 +1,3 @@
+vhdtdtfi -lib work Control_Path_Agri_Station.vhd -prj Agri_Station -o Control_Path_Agri_Station.spl -module Control_Path_Agri_Station -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 Control_Path_Agri_Station.spl {C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Control_Path_Agri_Station.sym} 
+vhdtdtfi -prj Agri_Station -o "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Control_Path_Agri_Station.vhi" -module Control_Path_Agri_Station -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Control_Path_Agri_Station.vhd 

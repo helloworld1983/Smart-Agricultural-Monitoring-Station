@@ -1,0 +1,2 @@
+vhdl work "Control_Path_Agri_Station.vhd"
+vhdl work "Control_Path_Agri_Station_TB.vhd"

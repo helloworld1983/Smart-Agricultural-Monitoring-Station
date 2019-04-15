@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Administrative_Correction_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="administrative_correction_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/administrative_correction_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/administrative_correction_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/administrative_correction_tb/switch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">switch</obj_property>
+      <obj_property name="ObjectShortName">switch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/administrative_correction_tb/upper_thresh" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">upper_thresh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">upper_thresh[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/administrative_correction_tb/lower_thresh" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lower_thresh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">lower_thresh[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/administrative_correction_tb/adc_val_per_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adc_val_per_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_val_per_in[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/administrative_correction_tb/config_bits" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">config_bits[2:0]</obj_property>
+      <obj_property name="ObjectShortName">config_bits[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/administrative_correction_tb/irri_activate" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">irri_activate</obj_property>
+      <obj_property name="ObjectShortName">irri_activate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/administrative_correction_tb/warning_signal" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">warning_signal[1:0]</obj_property>
+      <obj_property name="ObjectShortName">warning_signal[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/administrative_correction_tb/irri_done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">irri_done</obj_property>
+      <obj_property name="ObjectShortName">irri_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/administrative_correction_tb/ext_actuate" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ext_actuate</obj_property>
+      <obj_property name="ObjectShortName">ext_actuate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/administrative_correction_tb/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>

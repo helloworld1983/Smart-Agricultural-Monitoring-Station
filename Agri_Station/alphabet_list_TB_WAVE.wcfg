@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/alphabet_list_v2_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="alphabet_list_v2_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/alphabet_list_v2_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alphabet_list_v2_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alphabet_list_v2_tb/switch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">switch</obj_property>
+      <obj_property name="ObjectShortName">switch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alphabet_list_v2_tb/phone_num" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">phone_num[55:0]</obj_property>
+      <obj_property name="ObjectShortName">phone_num[55:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alphabet_list_v2_tb/soil_tol_pos" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">soil_tol_pos[15:0]</obj_property>
+      <obj_property name="ObjectShortName">soil_tol_pos[15:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alphabet_list_v2_tb/soil_tol_neg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">soil_tol_neg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">soil_tol_neg[15:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alphabet_list_v2_tb/config_bits" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">config_bits[2:0]</obj_property>
+      <obj_property name="ObjectShortName">config_bits[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alphabet_list_v2_tb/warning_signal" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">warning_signal[1:0]</obj_property>
+      <obj_property name="ObjectShortName">warning_signal[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alphabet_list_v2_tb/message" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">message[439:0]</obj_property>
+      <obj_property name="ObjectShortName">message[439:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alphabet_list_v2_tb/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>

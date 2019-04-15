@@ -1,0 +1,2 @@
+vhdl isim_temp "ADC_Input.vhd"
+vhdl isim_temp "ADC_Input_TB.vhd"

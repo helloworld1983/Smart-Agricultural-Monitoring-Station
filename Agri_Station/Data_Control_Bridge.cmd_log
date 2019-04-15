@@ -1,0 +1,276 @@
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Data_Control_Bridge.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Data_Control_Bridge_UCF.ucf -p xc3s400-ft256-4 "Data_Control_Bridge.ngc" Data_Control_Bridge.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Data_Control_Bridge_map.ncd Data_Control_Bridge.ngd Data_Control_Bridge.pcf 
+par -w -intstyle ise -ol high -t 1 Data_Control_Bridge_map.ncd Data_Control_Bridge.ncd Data_Control_Bridge.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_Control_Bridge.twx Data_Control_Bridge.ncd -o Data_Control_Bridge.twr Data_Control_Bridge.pcf -ucf Data_Control_Bridge_UCF.ucf 
+bitgen -intstyle ise -f Data_Control_Bridge.ut Data_Control_Bridge.ncd 

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/xst"
+elaborate
+-ifn Control_Path_Agri_Station.prj
+-ifmt mixed

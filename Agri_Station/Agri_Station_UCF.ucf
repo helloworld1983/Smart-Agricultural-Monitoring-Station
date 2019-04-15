@@ -1,0 +1,60 @@
+NET "clk"       			LOC = "T9";
+NET "reset"     			LOC = "L14";
+NET "switch"   		 		LOC = "K13";
+NET "buzzer"					LOC = "C10" | SLEW = FAST;
+NET	"display_cycle"		LOC = "L13";
+
+NET "phone_num_en"  	LOC = "K14";
+NET "soil_tol_en"			LOC = "J13";
+NET "negative_engage" LOC = "J14";
+NET "positive_engage" LOC = "H13";
+
+#NET "CONFIG_SWITCH(0)"  LOC = "K14";
+#NET "CONFIG_SWITCH(1)"	 LOC = "J13";
+#NET "CONFIG_SWITCH(2)"  LOC = "J14";
+#NET "CONFIG_SWITCH(3)"  LOC = "H13";
+
+NET "led(0)"					LOC ="K12" | SLEW = FAST;
+NET "led(1)"					LOC ="P14" | SLEW = FAST;
+NET "led(2)"					LOC ="L12" | SLEW = FAST;
+NET "led(3)"					LOC ="N14" | SLEW = FAST;
+NET "led(4)"					LOC ="P13" | SLEW = FAST;
+NET "led(5)"					LOC ="N12" | SLEW = FAST;
+NET "led(6)"					LOC ="P12" | SLEW = FAST;
+NET "led(7)"					LOC ="P11" | SLEW = FAST;
+NET "EXT_ACTUATE"			LOC ="D16" | SLEW = FAST;
+
+
+NET "anode(0)" 				LOC = "D14";
+NET "anode(1)"  			LOC = "G14";
+NET "anode(2)"  			LOC = "F14";
+NET "anode(3)" 				LOC = "E13";
+
+NET "seg(0)"    			LOC = "E14" | SLEW = FAST;  //seg A
+NET "seg(1)"    			LOC = "G13" | SLEW = FAST;  //seg B
+NET "seg(2)"    			LOC = "N15" | SLEW = FAST;  //seg C
+NET "seg(3)"    			LOC = "P15" | SLEW = FAST;  //seg D
+NET "seg(4)"   			 	LOC = "R16" | SLEW = FAST;  //seg E
+NET "seg(5)"   				LOC = "F13" | SLEW = FAST;  //seg F
+NET "seg(6)"   			 	LOC = "N16" | SLEW = FAST;  //seg G
+NET "seg(7)"    			LOC = "P16" | SLEW = FAST;  //seg DP
+
+NET "keys(0)"					LOC = "P10";	//LSB - Keypad entry i.e. bit 0
+NET "keys(1)"					LOC = "R10";  //		-	Keypad entry i.e. bit 1
+NET "keys(2)" 				LOC = "T7";   //  	-	Keypad entry i.e. bit 2
+NET "keys(3)" 				LOC = "R7";		//MSB	-	Keypad entry i.e. bit 3
+NET "DATA_AVL"				LOC = "N6";   //Data Available pin on the MM
+
+
+NET "ADC(0)"					LOC = "M6";		//LSB (1) - ADC input
+NET "ADC(1)"					LOC = "C15";	//Bit 1 	- ADC input
+NET "ADC(2)"					LOC = "D15";	//Bit 2 	- ADC input
+NET "ADC(3)"					LOC = "E15";	//Bit 3 	- ADC input
+NET "ADC(4)"					LOC = "F15";	//Bit 4		- ADC input
+NET "ADC(5)"					LOC = "G16";	//Bit 5 	- ADC input
+NET "ADC(6)"					LOC = "H16";	//Bit 6 	- ADC input
+NET "ADC(7)"					LOC = "K16";	//MSB (7) - ADC input
+
+NET "tx_line"	 				LOC="T3" | SLEW = SLOW;  
+NET "tx_line"          DRIVE=16;
+NET "rx_line"					LOC="N11";

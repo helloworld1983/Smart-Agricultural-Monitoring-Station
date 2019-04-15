@@ -1,0 +1,425 @@
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+xst -intstyle ise -ifn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.xst" -ofn "C:/Users/fudge/Documents/Xilinx Projects/Spartan 3 Projects/Agri_Station24.03.2019/Agri_Station/Agri_Station.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Agri_Station_UCF.ucf -p xc3s400-ft256-4 "Agri_Station.ngc" Agri_Station.ngd  
+map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off -c 100 -o Agri_Station_map.ncd Agri_Station.ngd Agri_Station.pcf 
+par -w -intstyle ise -ol high -t 1 Agri_Station_map.ncd Agri_Station.ncd Agri_Station.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Agri_Station.twx Agri_Station.ncd -o Agri_Station.twr Agri_Station.pcf -ucf Agri_Station_UCF.ucf 
+bitgen -intstyle ise -f Agri_Station.ut Agri_Station.ncd 
